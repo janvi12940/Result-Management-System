@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "/Result-Management-System/",   // 👈 ADD THIS LINE
+  base: "/Result-Management-System/",
   plugins: [react()],
   server: {
     proxy: {
